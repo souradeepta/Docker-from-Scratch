@@ -9,3 +9,5 @@ check logs "docker logs <name>"
 no spaces allowed in container name
 
 docker inspect <name>
+
+to bind a port use "-p host_port:container_port"
