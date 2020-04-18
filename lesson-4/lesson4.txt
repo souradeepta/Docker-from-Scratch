@@ -1,0 +1,11 @@
+Working directory of process which is running "-w"
+
+Mounting current directory as volume in windows is "%CD% and ${pwd} in linux
+
+make sure you add "" for directories involving spaces
+
+check logs "docker logs <name>"
+
+no spaces allowed in container name
+
+docker inspect <name>
