@@ -1,0 +1,3 @@
+Using volumes
+
+Create a volume "docker run -v <dir on host> <folder on container>"

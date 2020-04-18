@@ -1,6 +1,9 @@
+Learning to usage images and a few flags
+
 src: https://www.youtube.com/watch?v=i7yoXqlg48M
 
 //remember container is a running image
+
 
 start with "docker run"
 list all containers "docker ps -a"
