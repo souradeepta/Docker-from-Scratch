@@ -1,0 +1,16 @@
+src: https://www.youtube.com/watch?v=i7yoXqlg48M
+
+//remember container is a running image
+
+start with "docker run"
+list all containers "docker ps -a"
+list running containers "docker ps"
+start a new container "docker start <name>"
+attached the container to a running one "docker attach <name>"
+stop a container "docker stop"
+remove container "docker rm <name>"
+start container in interractie mode "docker run -it"
+start container in detached mode "docker run -d"
+have to use docker attach to attach the terminal to the image later on
+when container stops remove yourself "docker run -rm"
+Give name to a container "docker run --name"
