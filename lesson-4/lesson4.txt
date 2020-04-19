@@ -11,3 +11,5 @@ no spaces allowed in container name
 docker inspect <name>
 
 to bind a port use "-p host_port:container_port"
+
+can have 2 ports one management and one listening like for RMQ
