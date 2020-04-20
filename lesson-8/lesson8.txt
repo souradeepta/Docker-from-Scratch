@@ -1,3 +1,26 @@
+//using docker scratch, most basic base image you start from
+
+most lightweight image is scratch. Even lacks bin/sh
+
+//explaining run.bat
+line 5: Run go compile out of container and generate a binary file volume mapped to windows machine
+
+create an image which is in the "Dockerfile". 
+which copies the binary to the root of the container
+
+
+
+
+
+
+
+
+
+
+
+
+TIPS:
+
 remove networks you dont need "docker network prune"
 
 force remove "docker rm -f <first 2 digits of name>"
@@ -6,3 +29,10 @@ standard cleaning of images is:
 docker rm -f <container ID>
 docker rmi <image  name>
 docker network prune
+
+find docker networks "docker network ls"
+
+bind a network to image:
+docker run -it --rm --network <name> ubuntu /bin/bash
+
+default ubuntu image lacks ping(lol)
