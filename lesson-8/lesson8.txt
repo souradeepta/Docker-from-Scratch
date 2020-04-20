@@ -1,0 +1,8 @@
+remove networks you dont need "docker network prune"
+
+force remove "docker rm -f <first 2 digits of name>"
+
+standard cleaning of images is:
+docker rm -f <container ID>
+docker rmi <image  name>
+docker network prune

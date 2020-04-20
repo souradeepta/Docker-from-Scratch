@@ -24,3 +24,8 @@ Lesson 4: Running a Nodejs server
 
 Lesson 5: Using dockerFiles
 
+Lesson 6: Using docker-compose
+
+Lesson 7: Running a SQL server
+
+
