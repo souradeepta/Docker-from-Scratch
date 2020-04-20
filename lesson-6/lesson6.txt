@@ -1,0 +1,7 @@
+// using docker compose
+
+2 components:
+    services: containers to start in dockerfile
+    networks: for isolation
+
+    build which docker file from

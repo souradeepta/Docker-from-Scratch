@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+    node:
+        ports:
+            - "8081:3000"
+        networks:
+            - webnet
+        build:
+            context: ./
+            dockerfile: dockerFile
+networks: 
+    webnet:
