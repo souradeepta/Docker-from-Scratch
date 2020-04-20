@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+    sql:
+        ports:
+            - "1433:1433"
+        networks:
+            - sqlnet
+        image: microsoft/mysql-server-linux
+        environment: 
+            - ACCEPT_EULA=Y
+            - SA_PASSWORD="asdfasdf"
+networks: 
+    sqlnet:
