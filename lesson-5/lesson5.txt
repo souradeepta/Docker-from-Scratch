@@ -1,0 +1,6 @@
+// using dockerFile
+
+Build image from dockerFile "docker build"
+list images "docker iamges"
+
+delete images "docker rmi <image>"
