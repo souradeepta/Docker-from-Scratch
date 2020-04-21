@@ -31,9 +31,7 @@ Lesson 7: Running a SQL server
 Lesson 8: Compiling local file on golang server
 
 
-### Catalog
-
-#### Commonlly used  commands
+### Commonlly used  commands
 
 Run - start a container
 ````
