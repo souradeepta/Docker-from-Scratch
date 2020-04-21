@@ -28,4 +28,33 @@ Lesson 6: Using docker-compose
 
 Lesson 7: Running a SQL server
 
+Lesson 8: Compiling local file on golang server
 
+
+### Catalog
+
+#### Commonlly used  commands
+
+Run - start a container
+````
+docker run <image_name>
+````
+
+ps - list containers
+````
+docker ps
+````
+
+show all running and exited containers
+````
+docker ps -a
+````
+
+STOP - stop a container
+````
+docker stop <image_name>
+````
+
+````
+docker rm <image_name>
+````
