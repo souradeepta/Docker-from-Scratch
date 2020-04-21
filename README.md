@@ -55,6 +55,17 @@ STOP - stop a container
 docker stop <image_name>
 ````
 
+rm - Remove a container and free space
 ````
 docker rm <image_name>
+````
+
+images - List images
+````
+docker images
+````
+
+rmi - Remove images
+````
+docker rmi <image_name>
 ````
