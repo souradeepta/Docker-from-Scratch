@@ -40,6 +40,9 @@ docker run <image_name>
 ````
 docker run <image_name> sleep 5
 ````
+````
+docker run --name hello <image_name> 
+````
 ps - list containers
 ````
 docker ps
