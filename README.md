@@ -39,13 +39,15 @@ Run - start a container
 ````
 docker run <image_name>
 ````
-
+````
+docker run <image_name> sleep 5
+````
 ps - list containers
 ````
 docker ps
 ````
 
-show all running and exited containers
+Show all running and exited containers
 ````
 docker ps -a
 ````
@@ -68,4 +70,29 @@ docker images
 rmi - Remove images
 ````
 docker rmi <image_name>
+````
+
+Pull - Download an image and not run it
+````
+docker pull <image_name>
+````
+
+Pull - Download an image and not run it
+````
+docker pull <image_name>
+````
+
+Exec - execute a command
+````
+docker exec <image_name>  cat /etc/hosts
+````
+
+Run -d as detached
+````
+docker run -d <image_name >
+````
+
+Run  attached
+````
+docker attach <conatiner_id >
 ````
