@@ -8,6 +8,7 @@ Trying out Docker based on Youtube tutorials.
 ### Prerequisites
 
 Source: https://www.youtube.com/watch?v=i7yoXqlg48M
+Source: https://www.youtube.com/watch?v=zJ6WbK9zFpI&t=2012s
 
 Make sure you have Docker and VSCode installed
 
@@ -31,9 +32,9 @@ Lesson 7: Running a SQL server
 Lesson 8: Compiling local file on golang server
 
 
-### Commonlly used  commands
+### 1. Commonlly used  commands
 
-Run - start a container
+Run - start a container in interractive mode and with a terminal prompt
 ````
 docker run <image_name>
 ````
@@ -88,6 +89,8 @@ Exec - execute a command
 docker exec <image_name>  cat /etc/hosts
 ````
 
+### 2. Run in-depth
+
 Run -d as detached
 ````
 docker run -d <image_name >
@@ -96,4 +99,28 @@ docker run -d <image_name >
 Run  attached
 ````
 docker attach <conatiner_id >
+````
+Run - start a container in interractive mode and with a terminal prompt
+````
+docker run -it <image_name>
+````
+
+Run - PORT mapping from host to container
+````
+docker run -p 8080:5000 <image_name>
+````
+
+Run - Volume mapping host to container
+````
+docker run -v /host/datadir:/vara/lib/mysql mysql
+````
+
+Inspect Container
+````
+docker inspect mysql
+````
+
+Container logs
+````
+docker logs mysql
 ````
