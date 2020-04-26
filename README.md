@@ -131,3 +131,31 @@ ENV Variables in Docker
 ```
 docker run -e APP_COLOR=blue simple-webapp-color
 ```
+### 4. Docker images
+
+Sample Dockerfile
+````
+FROM Ubuntu
+RUN apt-get update
+RUN apt-get install python
+
+RUN pip install flask
+RUN pip install flask-mysql
+
+COPY . /opt/source-code
+
+ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask run
+
+````
+Build images
+```
+docker build Dockerfile -t myimage
+```
+or
+````
+docker build myimage:new .
+````
+All builds are cached. Check progress as
+```
+docker history myimage
+```
