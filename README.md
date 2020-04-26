@@ -32,7 +32,7 @@ Lesson 7: Running a SQL server
 Lesson 8: Compiling local file on golang server
 
 
-### 1. Commonlly used  commands
+### 1. Docker basic commands
 
 Run - start a container in interractive mode and with a terminal prompt
 ````
@@ -89,7 +89,7 @@ Exec - execute a command
 docker exec <image_name>  cat /etc/hosts
 ````
 
-### 2. Run in-depth
+### 2. Docker Run commands
 
 Run -d as detached
 ````
@@ -124,3 +124,10 @@ Container logs
 ````
 docker logs mysql
 ````
+
+### 3. Environment variables
+
+ENV Variables in Docker
+```
+docker run -e APP_COLOR=blue simple-webapp-color
+```
