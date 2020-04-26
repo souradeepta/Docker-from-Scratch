@@ -155,6 +155,7 @@ or
 ````
 docker build myimage:new .
 ````
+
 All builds are cached. Check progress as
 ```
 docker history myimage
