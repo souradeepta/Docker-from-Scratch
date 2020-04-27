@@ -133,7 +133,7 @@ docker run -e APP_COLOR=blue simple-webapp-color
 ```
 ### 4. Docker images
 
-Sample Dockerfile
+Sample Dockerfile. ENTRYPOINT and CMD can be command line arguments if in JSON format
 ````
 FROM Ubuntu
 RUN apt-get update
