@@ -132,7 +132,7 @@ ENV Variables in Docker
 docker run -e APP_COLOR=blue simple-webapp-color
 ```
 ### 4. Docker images
-
+~
 Sample Dockerfile. ENTRYPOINT and CMD can be command line arguments if in JSON format
 ````
 FROM Ubuntu
